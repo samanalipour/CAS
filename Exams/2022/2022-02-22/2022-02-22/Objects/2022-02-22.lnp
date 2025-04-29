@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\asm_func.o"
+".\objects\main.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\2022-02-22.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\2022-02-22.map" -o .\Objects\2022-02-22.axf

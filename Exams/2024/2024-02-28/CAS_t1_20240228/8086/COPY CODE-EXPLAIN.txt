@@ -1,0 +1,58 @@
+There’s 4 possible options:
+1-if the first number =even, second numbers=odd => then shift and add with the first number
+2-if the first number=even, second number is=even =>shift as much as the number of dividened of the number to 2
+3-if the first number=odd, second number=even=>shift as much as the number of dividened by division of the number to 2
+4-if the first number=odd, second number=odd=>shift and add with the first number
+
+
+
+.MODEL SMALL
+.STACK
+.DATA
+
+.CODE
+.STARTUP
+
+XOR AX,AX
+XOR BX,BX
+XOR CX,CX
+XOR DX,DX 
+
+MOV DL,2
+MOV BL,2 
+
+SHR DL,1 ;CHECK IF THE NUMBER IS EVEN OR ODD BY DIVID ON 2 AND CHECK THE REMAINDER
+MOV DL,CL       ;STORE IT TO KNOW HOW MUCH SHOULD i SHIFT
+CMP DL,0 ;IF THE REMAINDER IS 0=>ONE OF THE NUMBERS IS EVEN SO IT CAN BE SHIFTED FOR MULTIPLICATION  
+JNZ ODDNUMBER  ;FIRST NUMBER=ODD
+SHR BL,1       ;CHECK THE SECOND NUMBER 
+MOV CH,BL       ;STORE THE RESULT OF DIVISION BY 2 SO I KNOW HOW MUCH TO SHIFT
+CMP BL,0
+JNZ ODDNUMBER  ;SECOND NUM=ODD 
+
+
+
+ODDNUMBER
+;SO SHIFT AND THEN ADD 3*3=9=>3*2=6+3=9
+MOV DL,3
+MOV BL,3
+SHL DL,CL ;SHIFT LEFT THE DL AS MUCH AS BL, BL IS 
+ADD DL,BL   ;AND THEN ADD WITH THE NUMBER
+
+
+
+;COMPARISON WITH 255
+MOV AX,DX
+CMP AX,255
+JG GREATER
+MOV BH,0
+JMP ENDCHECK
+
+GREATER:
+MOV BH,1
+
+ENDCHECK:
+
+
+.EXIT
+END

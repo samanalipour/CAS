@@ -1,0 +1,19 @@
+< THE SYMBOL TABLE >  2023-02-07.exe_  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+STACK                    	00000     	-5        	SEGMENT   	(ITSELF)  
+DATA                     	00010     	-5        	SEGMENT   	(ITSELF)  
+FIELD                    	00000     	1         	VAR       	data      
+POSITION                 	00031     	1         	VAR       	data      
+DIAG                     	00035     	1         	VAR       	data      
+CODE                     	00014     	-5        	SEGMENT   	(ITSELF)  
+STARTUP                  	00000     	-1        	LABEL     	code      
+L1                       	00013     	-1        	LABEL     	code      
+FIND_A                   	0001C     	-1        	LABEL     	code      
+NOT_DIAGNOAL             	00033     	-1        	LABEL     	code      
+CHECK_LOOP               	00038     	-1        	LABEL     	code      
+===================================================================================================
+[ 07/02/2023  --  10:28:09 ] 
+< END >
+ 

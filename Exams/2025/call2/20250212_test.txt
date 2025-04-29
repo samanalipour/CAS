@@ -1,0 +1,40 @@
+EXAM A
+
+
+TEST 1 (example)
+y = 20 
+n = 3 
+RESULT = 0x5B
+
+TEST 2
+y = -24 
+n = 6 
+RESULT = 0xFFFFFFBD
+
+TEST 3
+y = 27
+n = 4
+RESULT = 0x2B
+
+--------------------------------
+
+EXAM B
+
+
+TEST 1 (example)
+y = 25 
+n = 4 
+RESULT = 0xFFFFFFB0
+
+TEST 2
+y = -24 
+n = 6
+RESULT = 0xFFFFFFB6
+
+TEST 3
+y = 27
+n = 4
+RESULT = 0xFFFFFFA6
+
+
+

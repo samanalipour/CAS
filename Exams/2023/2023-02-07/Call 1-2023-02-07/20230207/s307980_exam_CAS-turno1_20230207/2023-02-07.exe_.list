@@ -1,0 +1,106 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+2023-02-07.exe_ -- emu8086 assembler version: 4.08  
+ 
+[ 07/02/2023  --  10:28:09 ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       SIZE EQU 49
+[   2]        :                                       .MODEL SMALL
+[   3]        :                                       .STACK
+[   4]        :                                       .DATA
+[   5]    0100: 43 44 41 46 4B 4B 4A 42 41 42 44 48   FIELD       DB 'C', 'D', 'A', 'F', 'K', 'K', 'J', 'B', 'A', 'B','D', 'H', 'G', 'R', 'O','O', 'P', 'U', 'Y', 'R', 'E','W', 'W', 'W', 'W', 'F', 'R', 'Y', 'T', 'T', 'T', 'T', 'T', 'T', 'T', 'D', 'A', 'E','H', 'T', 'U', 'I', 'R', 'E', 'R', 'T', 'S', 'W', 'A'
+                47 52 4F 4F 50 55 59 52 45 57 57 57 
+                57 46 52 59 54 54 54 54 54 54 54 44 
+                41 45 48 54 55 49 52 45 52 54 53 57 
+                41                                  
+[   6]    0131: 00 00 00 00                           POSITION    DB  4   DUP(?)
+[   7]    0135: 00 00 00 00                           DIAG        DB  4   DUP(?)
+[   8]        :                                       .CODE
+[   9]    0140: BA 10 00 8E DA                        .STARTUP
+[  10]        :                                       ;INITIALE TO ZERO ALL NEDDED REGISTER
+[  11]    0145: 33 F6                                 XOR SI,SI
+[  12]    0147: 33 C0                                 XOR AX,AX
+[  13]    0149: 33 FF                                 XOR DI,DI
+[  14]    014B: 33 DB                                 XOR BX,BX
+[  15]    014D: 33 C9                                 XOR CX,CX
+[  16]    014F: 33 D2                                 XOR DX,DX
+[  17]        :                                       
+[  18]    0151: B1 31                                 MOV CL,SIZE             ;PUT 49 TO CL FOR COUNTING THE LOOP
+[  19]        :                                       
+[  20]    0153:                                       L1:
+[  21]    0153: 8A 14                                 MOV DL,FIELD[SI]        ;LOAD FIRST ELEMENT OF FIELD
+[  22]    0155: 80 FA 41                              CMP DL,'A'              ;CHECK THAT IS EQUAL TO 'A' OR NOT
+[  23]    0158: 74 02                                 JE  FIND_A
+[  24]    015A: EB 1C                                 JMP CHECK_LOOP          ;IF DID NOT FIND REPEAT THE LOOP
+[  25]    015C:                                       FIND_A:
+[  26]    015C: 8B C6                                 MOV AX,SI
+[  27]    015E: 88 45 31                              MOV POSITION[DI], AL    ;COPY THE INDEX OF ELEMENT THAT MATCH TO POSITION ARRAY
+[  28]    0161: B3 08                                 MOV BL,8                ; WE DIVIDE THIS INDEX ON 8 AND IF THE RESIDVAL WAS ZERO SO IT IT ONE MAIN DIAGNOAL
+[  29]    0163: 8B C6                                 MOV AX,SI
+[  30]    0165: F6 F3                                 DIV BL
+[  31]    0167: 80 FC 00                              CMP AH,0                ;CHECK IF RES IS ZERO OR NOT
+[  32]    016A: 75 07                                 JNE NOT_DIAGNOAL
+[  33]    016C: C6 45 35 01                           MOV DIAG[DI],1          ;IF WAS WE 1 DIAG ARRAY ELEMENT
+[  34]    0170: 47                                    INC DI                  ;THEN INCREMENT POINTER OF DIAG AND POSITION
+[  35]    0171: EB 05                                 JMP CHECK_LOOP
+[  36]    0173:                                       NOT_DIAGNOAL:
+[  37]    0173: C6 45 35 00                           MOV DIAG[DI],0          ;IF WAS NOT WE 0 DIAG ARRAY ELEMENT
+[  38]    0177: 47                                    INC DI                  ;THEN INCREMENT POINTER OF DIAG AND POSITION
+[  39]    0178:                                       CHECK_LOOP:
+[  40]    0178: 46                                    INC SI                  ;INC POINTER OF FIELD POS
+[  41]    0179: FE C9                                 DEC CL                  ;DEC LOOP REPEAT
+[  42]    017B: 80 F9 00                              CMP CL,0                ;JMP TO L1
+[  43]    017E: 75 D3                                 JNZ L1
+[  44]    0180: B8 00 4C CD 21                        .EXIT
+[  45]        :                                       END
+[  46]        :                                       ;IN MY ALGORITHM I SCANNED ALL POSITION ARRAY FOR THE 'A' AND IF FIND 'A' I DIVIDE THE INDXE OF THAT TO 8 AND IF RES WAS ZERO SO IT IS ONE MAIN DIAGNOAL
+[  47]        :                                       
+ 
+===================================================================================================
+ 
+EXE HEADER - bytes from 0000 to 01FF inclusive.
+
+0000: 4D      -   exe signature (M)
+0001: 5A      -   exe signature (Z)
+0002: 85      -   bytes on last page (l.byte)
+0003: 01      -   bytes on last page (h.byte)
+0004: 02      -   512 byte pages in file (l.byte)
+0005: 00      -   512 byte pages in file (h.byte)
+0006: 01      -   relocations (l.byte)
+0007: 00      -   relocations (h.byte)
+0008: 20      -   paragraphs in header (l.byte)
+0009: 00      -   paragraphs in header (h.byte)
+000A: 00      -   minimum memory (l.byte)
+000B: 00      -   minimum memory (h.byte)
+000C: FF      -   maximum memory (l.byte)
+000D: FF      -   maximum memory (h.byte)
+000E: 00      -   SS - stack segment (l.byte)
+000F: 00      -   SS - stack segment (h.byte)
+0010: 00      -   SP - stack pointer (l.byte)
+0011: 01      -   SP - stack pointer (h.byte)
+0012: 3A      -   check sum (l.byte)
+0013: D5      -   check sum (h.byte)
+0014: 00      -   IP - instruction pointer (l.byte)
+0015: 00      -   IP - instruction pointer (h.byte)
+0016: 14      -   CS - code segment (l.byte)
+0017: 00      -   CS - code segment (h.byte)
+0018: 1E      -   relocation table adress (l.byte)
+0019: 00      -   relocation table adress (h.byte)
+001A: 00      -   overlay number (l.byte)
+001B: 00      -   overlay number (h.byte)
+001C: 01      -   signature (l.byte)
+001D: 00      -   signature (h.byte)
+001E: 01      -   relocation table - offset inside segment (l.byte)
+001F: 00      -   relocation table - offset inside segment (h.byte)
+0020: 14      -   relocation table - segment anchor (l.byte)
+0021: 00      -   relocation table - segment anchor (h.byte)
+0022 to 01FF  -   reserved relocation area  (00) 
+
+
+
+
+===================================================================================================
