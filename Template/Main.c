@@ -29,13 +29,16 @@
 int main(){
 	//SystemInit();
 
+	//DAC
+		//DAC_init();
+		//DAC_write(500);
 	
 	//Timer
 		//init_timer_SRI(0,0xFF,0b000);			//stop reset interrupt
 		//enable_timer(0);
 		//uint32_t timer_value = read_timer(0);
 	//Delay 
-		//init_timer_SRI(3,100000,0b011);			//1ms delay
+		//init_timer_SRI(3,25000,0b011);			//1ms delay
 		//enable_timer(3);
 		//delay_ms(50);
 	
@@ -59,8 +62,6 @@ int main(){
 		//ADC_init();
 		//ADC_start_conversion();
 	
-	//DAC
-		//DAC_write(500);
 	//GLCD
 		//LCD_Initialization();
 		//LCD_Clear(Black);

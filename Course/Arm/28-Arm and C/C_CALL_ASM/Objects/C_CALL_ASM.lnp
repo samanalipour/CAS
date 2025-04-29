@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\func.o"
+".\objects\asm_func.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\C_CALL_ASM.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\C_CALL_ASM.map" -o .\Objects\C_CALL_ASM.axf
