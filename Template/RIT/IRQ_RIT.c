@@ -19,9 +19,10 @@
 ** Returned value:		None
 **
 ******************************************************************************/
-
 void RIT_IRQHandler (void)
-{				
+{			
+		if((LPC_GPIO1->FIOPIN & (1<<25)) == 0){			//sel
+		}	
 		if((LPC_GPIO1->FIOPIN & (1<<26)) == 0){			//down
 		}
 		if((LPC_GPIO1->FIOPIN & (1<<27)) == 0){			//left

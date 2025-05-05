@@ -37,6 +37,7 @@ int main(){
 		//init_timer_SRI(0,0xFF,0b000);			//stop reset interrupt
 		//enable_timer(0);
 		//uint32_t timer_value = read_timer(0);
+	
 	//Delay 
 		//init_timer_SRI(3,25000,0b011);			//1ms delay
 		//enable_timer(3);
@@ -67,6 +68,12 @@ int main(){
 		//LCD_Clear(Black);
 		//PutChar(0,0,'a',White,Black);
 		//GUI_Text(0,0,(uint8_t *)"Hello world!!",White,Black);
+		
+	//Touch
+		//TP_Init();
+		//TouchPanel_Calibrate();
+		//TP_DrawPoint(display.x,display.y);
+		//getDisplayPoint(&display, Read_Ads7846(), &matrix );
 	
 	while(1){
 		

@@ -17,6 +17,6 @@
 
 void joystick_init(void) {
 	/* joystick up functionality */
-  LPC_PINCON->PINSEL3 &= ~(0xFF<<20);	
-	LPC_GPIO1->FIODIR   &= ~(0xF<<26);	
+  LPC_PINCON->PINSEL3 &= ~(0x3FF<<18);	
+	LPC_GPIO1->FIODIR   &= ~(0x1F<<25);	
 }

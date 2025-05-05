@@ -1,0 +1,14 @@
+./objects/irq_button.o: Button\IRQ_button.c Button\..\Main.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h \
+  C:\Users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h \
+  Button\..\Timer\timer.h Button\..\Button\button.h Button\..\LED\led.h \
+  Button\..\joystick\joystick.h Button\..\RIT\RIT.h Button\..\ADC\adc.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h Button\..\GLCD\GLCD.h \
+  Button\..\TouchPanel\TouchPanel.h Button\..\DAC\DAC.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h
