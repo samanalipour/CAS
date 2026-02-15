@@ -1,0 +1,147 @@
+Dependencies for Project 'Template', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\Main.c)(0x69923DB5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/main.o -MMD)
+I (Main.h)(0x697E209E)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (Timer\timer.h)(0x697E209E)
+I (Button\button.h)(0x697E209E)
+I (LED\led.h)(0x697E209E)
+I (joystick\joystick.h)(0x697E209E)
+I (RIT\RIT.h)(0x697E209E)
+I (ADC\adc.h)(0x697E209E)
+I (GLCD\GLCD.h)(0x697E209E)
+I (TouchPanel\TouchPanel.h)(0x697E209E)
+I (DAC\DAC.h)(0x697E209E)
+F (.\Main.h)(0x697E209E)()
+F (.\Timer\IRQ_timer.c)(0x69923D30)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/irq_timer.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (Timer\..\Main.h)(0x697E209E)
+I (Timer\..\Timer\timer.h)(0x697E209E)
+I (Timer\..\Button\button.h)(0x697E209E)
+I (Timer\..\LED\led.h)(0x697E209E)
+I (Timer\..\joystick\joystick.h)(0x697E209E)
+I (Timer\..\RIT\RIT.h)(0x697E209E)
+I (Timer\..\ADC\adc.h)(0x697E209E)
+I (Timer\..\GLCD\GLCD.h)(0x697E209E)
+I (Timer\..\TouchPanel\TouchPanel.h)(0x697E209E)
+I (Timer\..\DAC\DAC.h)(0x697E209E)
+F (.\Timer\lib_timer.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/lib_timer.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (Timer\timer.h)(0x697E209E)
+F (.\Timer\timer.h)(0x697E209E)()
+F (.\Button\button.h)(0x697E209E)()
+F (.\Button\IRQ_button.c)(0x69923E87)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/irq_button.o -MMD)
+I (Button\..\Main.h)(0x697E209E)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (Button\..\Timer\timer.h)(0x697E209E)
+I (Button\..\Button\button.h)(0x697E209E)
+I (Button\..\LED\led.h)(0x697E209E)
+I (Button\..\joystick\joystick.h)(0x697E209E)
+I (Button\..\RIT\RIT.h)(0x697E209E)
+I (Button\..\ADC\adc.h)(0x697E209E)
+I (Button\..\GLCD\GLCD.h)(0x697E209E)
+I (Button\..\TouchPanel\TouchPanel.h)(0x697E209E)
+I (Button\..\DAC\DAC.h)(0x697E209E)
+F (.\Button\lib_button.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/lib_button.o -MMD)
+I (Button\button.h)(0x697E209E)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\lpc17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+F (.\LED\funct_led.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/funct_led.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (LED\led.h)(0x697E209E)
+F (.\LED\led.h)(0x697E209E)()
+F (.\LED\lib_led.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/lib_led.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (LED\led.h)(0x697E209E)
+F (.\joystick\joystick.h)(0x697E209E)()
+F (.\joystick\lib_joystick.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/lib_joystick.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (joystick\joystick.h)(0x697E209E)
+F (.\RIT\IRQ_RIT.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/irq_rit.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (RIT\RIT.h)(0x697E209E)
+I (RIT\..\Main.h)(0x697E209E)
+I (RIT\..\Timer\timer.h)(0x697E209E)
+I (RIT\..\Button\button.h)(0x697E209E)
+I (RIT\..\LED\led.h)(0x697E209E)
+I (RIT\..\joystick\joystick.h)(0x697E209E)
+I (RIT\..\RIT\RIT.h)(0x697E209E)
+I (RIT\..\ADC\adc.h)(0x697E209E)
+I (RIT\..\GLCD\GLCD.h)(0x697E209E)
+I (RIT\..\TouchPanel\TouchPanel.h)(0x697E209E)
+I (RIT\..\DAC\DAC.h)(0x697E209E)
+F (.\RIT\lib_RIT.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/lib_rit.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (RIT\RIT.h)(0x697E209E)
+F (.\RIT\RIT.h)(0x697E209E)()
+F (.\ADC\adc.h)(0x697E209E)()
+F (.\ADC\IRQ_adc.c)(0x69923C09)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/irq_adc.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (ADC\..\Main.h)(0x697E209E)
+I (ADC\..\Timer\timer.h)(0x697E209E)
+I (ADC\..\Button\button.h)(0x697E209E)
+I (ADC\..\LED\led.h)(0x697E209E)
+I (ADC\..\joystick\joystick.h)(0x697E209E)
+I (ADC\..\RIT\RIT.h)(0x697E209E)
+I (ADC\..\ADC\adc.h)(0x697E209E)
+I (ADC\..\GLCD\GLCD.h)(0x697E209E)
+I (ADC\..\TouchPanel\TouchPanel.h)(0x697E209E)
+I (ADC\..\DAC\DAC.h)(0x697E209E)
+F (.\ADC\lib_adc.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/lib_adc.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (ADC\adc.h)(0x697E209E)
+F (.\GLCD\AsciiLib.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/asciilib.o -MMD)
+I (GLCD\AsciiLib.h)(0x697E209E)
+F (.\GLCD\AsciiLib.h)(0x697E209E)()
+F (.\GLCD\GLCD.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/glcd.o -MMD)
+I (GLCD\GLCD.h)(0x697E209E)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (GLCD\AsciiLib.h)(0x697E209E)
+F (.\GLCD\GLCD.h)(0x697E209E)()
+F (.\GLCD\HzLib.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/hzlib.o -MMD)
+I (GLCD\HzLib.h)(0x697E209E)
+F (.\GLCD\HzLib.h)(0x697E209E)()
+F (.\TouchPanel\TouchPanel.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/touchpanel.o -MMD)
+I (TouchPanel\..\GLCD\GLCD.h)(0x697E209E)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+I (TouchPanel\..\TouchPanel\TouchPanel.h)(0x697E209E)
+F (.\TouchPanel\TouchPanel.h)(0x697E209E)()
+F (.\run_length_encoding.s)(0x69923B28)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"LPC175x_6x SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/run_length_encoding.o)
+F (.\DAC\DAC.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/dac.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
+F (.\DAC\DAC.h)(0x697E209E)()
+F (RTE/Device/LPC1768/RTE_Device.h)(0x697E209E)()
+F (RTE/Device/LPC1768/startup_LPC17xx.s)(0x69923B35)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"LPC175x_6x SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc17xx.o)
+F (RTE/Device/LPC1768/system_LPC17xx.c)(0x697E209E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/users/saman/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -D_RTE_-o ./objects/system_lpc17xx.o -MMD)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x695ED3E5)
+I (C:\users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x695ED3AB)
+I (C:\users\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x695ED3E5)
